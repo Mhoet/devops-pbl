@@ -51,12 +51,12 @@ To create a virtual host for my website, I setup a domain called lampstack using
 sudo apache2ctl configtest
 sudo systemctl reload apache2
 ```
-- Since the webroot /var/www/stacklamp was still empty, I created an index.html file in the same directory and added to text to it. 
+- Since the webroot /var/www/lampstack was still empty, I created an index.html file in the same directory and added to text to it. 
  ```
-sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectlamp/index.html
+sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/lampstack/index.html
 ```
 - Next, I created an index.php file in the same directory using ```
-vim /var/www/projectlamp/index.php``` and added the below php code 
+vim /var/www/lampstack/index.php``` and added the below php code 
 ```
 <?php
 phpinfo();
