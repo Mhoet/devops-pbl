@@ -1,5 +1,5 @@
 # WEB STACK IMPLEMENTATION LEMP STACK (Linux, **NGINX**, MySQL and PHP.) IN AWS
-### Using AWS virtual machine EC2 t3.micro instance (same as in my previous [LAMP STACK IMPLEMENTATION](https://github.com/Mhoet/devops-pbl/blob/main/lamp-stack-implmentation.md))
+### Using AWS virtual machine EC2 t3.micro instance (same as in my previous [LAMP STACK IMPLEMENTATION](https://github.com/Mhoet/devops-pbl/blob/main/lamp-stack-implementation.md))
 ## STEPS RECREATED
 ### I installed **NGINX** and updated the firewall using 
 ```sudo apt install nginx```
