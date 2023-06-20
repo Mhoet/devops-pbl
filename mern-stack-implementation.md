@@ -4,7 +4,7 @@
 
 #### On this project I will be deploying a ``To-Do`` App.
 
-## STEPS RECREATED (BACKEND)
+## STEPS
 - I got the location of Node.js software from [Ubuntu repositories](https://github.com/nodesource/distributions#deb). using the below code:
 ```curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -```
 -  I installed Node.Js and verified the installation using 
