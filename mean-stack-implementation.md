@@ -3,7 +3,7 @@
 
 #### On this project I will be deploying a ``Book-Record`` App.
 
-## STEPS (BACKEND)
+## STEPS
 - After updating and upgrading ubuntu, I added certificates using the below code:
 -```
 sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
