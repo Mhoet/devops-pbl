@@ -11,10 +11,13 @@ Server A name - `mysql server`
 Server B name - `mysql client`
 ```
 ![Screenshot 2023-06-18 071322](https://github.com/Mhoet/devops-pbl/assets/81827857/4bdbff38-8d44-41ba-a21b-f22ee3aa8a91)
+
 2.  On  `mysql server`  Linux Server, I installed MySQL  **Server**  software.
 
 ![Screenshot 2023-06-18 071548](https://github.com/Mhoet/devops-pbl/assets/81827857/76f8cb4d-d2e6-40e2-a1d8-0d1222c01eff)
+
 3.  On  `mysql client`  Linux Server, I installed MySQL  **Client**  software.   ![Screenshot 2023-06-18 071849](https://github.com/Mhoet/devops-pbl/assets/81827857/59c4104e-82c7-4e3f-a302-23a8630dc9ad)
+
 4.  I used  `mysql server's`  local IP address to connect from  `mysql client`.  Since MySQL server uses TCP port 3306 by default, I opened it by creating a new entry in ‘Inbound rules’ in ‘mysql server’ Security Groups and allowed access only to the specific IP address of my `mysql`client’.   ![Screenshot 2023-06-18 073047](https://github.com/Mhoet/devops-pbl/assets/81827857/d64b24e7-1031-474f-9816-0235e0b4650f)
 5.  I configured MySQL server to allow connections from remote hosts by running: ```
 sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf``` and replaced ‘127.0.0.1’ to ‘0.0.0.0’ like this:
