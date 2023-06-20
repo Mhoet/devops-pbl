@@ -2,7 +2,7 @@
 ## IMPLEMENTATION OF CLIENT SERVER ARCHITECTURE USING MYSQL DATABASE MANAGEMENT SYSTEM (DBMS) IN AWS
 
 
-## STEPS RECREATED
+## STEPS
 
 1.  I created and configure two Linux-based virtual servers (EC2 instances in AWS).
 
